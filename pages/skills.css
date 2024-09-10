@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 5vh;
+    width: 100%;
+}
+section{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+section>#mainmenu{
+    height: 100%;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    border-right: 3px solid black;
+}
+section>#mainmenu>#name{
+    height: 20%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>#mainmenu>#name>h1{
+    font-family:fantasy;
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+}
+section>#mainmenu>#menu{
+    height: 47%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section>#mainmenu>#menu>div>a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+section>#mainmenu>#menu>#home{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#menu>#home:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transition: 1s;
+}
+section>#mainmenu>#menu>#about{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#menu>#about:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transition: 1s;
+}
+section>#mainmenu>#menu>#skills{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#menu>#skills:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transition: 1s;
+}
+section>#mainmenu>#menu>#Certificates{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#menu>#Certificates:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+section>#mainmenu>#sm{
+    height: 33%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#sm>article>span{
+   position: relative;
+   top: 50px;
+   right: 208px;
+}
+section>#mainmenu>#sm>article{
+    height: 100%;
+    width: 90%;
+    border-top: 3px solid black;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>#mainmenu>#sm>article>div>a>img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 7px;
+}
+#mainbody{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mainbody>#body1{
+    height: 40%;
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#mainbody>#body1>#java{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+    /* background-color: beige; */
+}
+#mainbody>#body1>#jdbc{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+#mainbody>#body2{
+    height: 50%;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+}
+#mainbody>#body2>#html{
+    height: 250px;
+    width: 270px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+    /* background-color: brown; */
+}
+#mainbody>#body2>#css{
+    height: 250px;
+    width: 270px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+    /* background-color: blueviolet; */
+}
+#mainbody>#body2>#JavaScript{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
